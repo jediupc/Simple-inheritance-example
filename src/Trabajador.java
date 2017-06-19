@@ -2,10 +2,8 @@
  * Created by marcos on 24/01/2016.
  */
 public abstract class Trabajador {
-  protected String nombre;
-  protected Double sueldo;
+    protected String nombre;
+    protected Double sueldo;
 
-
-
-  abstract Double sueldoNeto();
+    abstract Double sueldoNeto();
 }
